@@ -224,6 +224,7 @@ export default function Home() {
 
   return (
     <main className="w-full h-auto min-h-full flex flex-col items-center justify-start p-8">
+      <h1 className="text-4xl font.black font m-8">Misturador de Palpites 1.0</h1>
       <div className="flex flex-wrap justify-center items-end gap-2 bg-slate-100 p-4 rounded-md">
         <div className="flex flex-col">
           <label htmlFor="">Casa</label>
