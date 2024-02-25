@@ -266,7 +266,7 @@ export default function Home() {
             <p><b>{'Nenhum palpite ainda :('}</b></p>
         }
       </div>
-      <div className="flex gap-2 items-end justify-center mt-8 bg-slate-100 w-3/5">
+      <div className="flex flex-wrap gap-2 items-end justify-center mt-8 bg-slate-100 w-3/5">
         <div className="flex flex-col">
           <label htmlFor="">Nº apostas</label>
           <input className="input" type="number" placeholder="nº Apostas" value={betQty} onChange={(e) => setBetQty(+e.target.value)} />
