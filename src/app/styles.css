@@ -1,0 +1,23 @@
+.btn {
+    background-color: blue !important;
+    padding: 8px;
+    border-radius: 5px;
+    color: white;
+}
+
+.input {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 2px;
+    width: 180px;
+    text-transform: uppercase;
+}
+
+.btn:disabled {
+    cursor: not-allowed;
+    opacity: .5;
+}
+
+.red {
+    background-color: red !important;
+}
